@@ -11,7 +11,7 @@
         <h2>Форма</h2>
         <label>
             ФИО:<br>
-            <input name="field-name-1" placeholder="Костенко Никита Алексеевич" type="name">
+            <input name="field-name-1" placeholder="Заславец Богдан Сергеевич" type="name">
         </label><br>
 
         <label>
@@ -20,7 +20,7 @@
         </label><br>
         <label>
             Email:<br>
-            <input name="field-email" placeholder="nik.kostenko.04@bk.ru" type="email">
+            <input name="field-email" placeholder="bogdanzaslav@gmail.com" type="email">
         </label><br>
         <label>
             Дата рождения:<br>
