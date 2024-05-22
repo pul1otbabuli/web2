@@ -131,7 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     // записываем информацию в базу данных
     include ("./db_data.php");
     $db = new PDO(
-        'mysql:host=localhost;dbname=u67441',
+        'mysql:host=localhost;dbname=u67294',
         $user,
         $pass,
         [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
