@@ -1,0 +1,51 @@
+* {
+  font-size: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+body {
+  color: #4b0082;
+  background-color: #a484f6;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 25pt;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+  border: 1px solid#e5e5e5;
+}
+
+input[type="submit"],
+[type="radio"],
+[type="date"] {
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: rgb(255, 255, 255);
+}
+
+.form-submissions > * {
+  margin-bottom: 1em; margin-left: 1em;
+}
+
+.submission-item {
+  border: 3px solid #4b0082;
+  display: inline-block;
+}
+
+.submission-item > form > * + * {
+  margin-top: 1em;
+}
