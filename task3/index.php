@@ -72,8 +72,8 @@ if ($errors) {
 }
 
 
-$user = 'u67441';
-$pass = '7231822';
+$user = 'u67294';
+$pass = '3387363';
 $db = new PDO(
     'mysql:host=localhost;dbname=u67441',
     $user,
