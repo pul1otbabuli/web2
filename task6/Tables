@@ -33,3 +33,10 @@ login VARCHAR(20) NOT NULL UNIQUE,
 password_hash varchar(32) NOT NULL,
 PRIMARY KEY (id)
 );
+ALTER TABLE favoritelang
+ADD CONSTRAINT FOREIGN KEY (parent_id)
+REFERENCES application(id);
+
+ALTER TABLE application
+ADD CONSTRAINT FOREIGN KEY (user_id)
+REFERENCES users(user_id);
